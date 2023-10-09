@@ -27,4 +27,9 @@ public class TestController {
     public ResponseEntity getTest3() {
         return new ResponseEntity("Test3", HttpStatus.OK);
     }
+
+    @RequestMapping("/api/test4")
+    public ResponseEntity getTest4() {
+        return new ResponseEntity("Test4", HttpStatus.OK);
+    }
 }
