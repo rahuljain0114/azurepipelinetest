@@ -12,4 +12,9 @@ public class TestController {
     public ResponseEntity getHealth() {
         return new ResponseEntity("Alive", HttpStatus.OK);
     }
+
+    @RequestMapping("/api/test1")
+    public ResponseEntity getTest1() {
+        return new ResponseEntity("Test1", HttpStatus.OK);
+    }
 }
