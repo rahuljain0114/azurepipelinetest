@@ -22,4 +22,9 @@ public class TestController {
     public ResponseEntity getTest2() {
         return new ResponseEntity("Test2", HttpStatus.OK);
     }
+
+    @RequestMapping("/api/test3")
+    public ResponseEntity getTest3() {
+        return new ResponseEntity("Test3", HttpStatus.OK);
+    }
 }
